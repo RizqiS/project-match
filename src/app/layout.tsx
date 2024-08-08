@@ -18,9 +18,11 @@ export default function RootLayout({
          <body>
             <NextUIProviders>
                <TopNav />
-               <main className="mx-auto container p-10">{children}</main>
+               <main className="mx-auto container">{children}</main>
             </NextUIProviders>
          </body>
       </html>
    );
 }
+
+// git push -u origin main
